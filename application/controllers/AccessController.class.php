@@ -120,8 +120,8 @@
           trace(__FILE__, "login() - redirectTo($ref_controller, $ref_action, $ref_params)" );
           $this->redirectTo($ref_controller, $ref_action, $ref_params);
         } else {
-          trace(__FILE__, 'login() - redirectTo(dashboard)' );
-          $this->redirectTo('dashboard');
+          trace(__FILE__, 'login() - redirectTo(project)' );
+          $this->redirectTo('project');
         } // if
       } // if
     } // login

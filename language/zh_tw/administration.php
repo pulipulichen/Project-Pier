@@ -109,14 +109,14 @@
 
 
   // administration.php Merge Result
-  'administration tool name test_mail_settings' => 'Test mail settings',
-  'administration tool desc test_mail_settings' => 'Use this simple tool to send test emails to check if the ProjectPier mailer is configured properly',
-  'administration tool name mass_mailer' => 'Mass mailer',
-  'administration tool desc mass_mailer' => 'Simple tool that lets you send plain text messages to any group of users registered in the system',
-  'administration tool name system_info' => 'System information',
-  'administration tool desc system_info' => 'Simple tool that shows you system details',
-  'administration tool name browse_log' => 'Browse system log',
-  'administration tool desc browse_log' => 'Use this tool to browse the system log and detect errors',
+  'administration tool name test_mail_settings' => '寄送測試郵件',
+  'administration tool desc test_mail_settings' => '使用這個小工具來寄一封測試郵件，確認ProjectPier寄信是否有設定妥當吧。',
+  'administration tool name mass_mailer' => '大量寄信',
+  'administration tool desc mass_mailer' => '讓你寄送純文字訊息給已註冊的使用者。',
+  'administration tool name system_info' => '系統資訊',
+  'administration tool desc system_info' => '檢視系統細節資訊的小工具',
+  'administration tool name browse_log' => '瀏覽系統記錄',
+  'administration tool desc browse_log' => '瀏覽系統記錄並偵錯的小工具。',
   'configuration' => 'Configuration',
   'mail transport mail()' => 'Default PHP settings',
   'mail transport smtp' => 'SMTP server',

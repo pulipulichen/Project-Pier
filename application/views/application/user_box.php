@@ -1,9 +1,10 @@
 <?php trace(__FILE__,'begin'); ?>
 <div id="userbox">
   <ul id="account_more_menu">
-      
+
     <?php if(isset($_userbox_projects) && is_array($_userbox_projects) && count($_userbox_projects)) { ?>
-     <?php if(100 > count($_userbox_projects)) { ?>
+      
+    <?php if(100 > count($_userbox_projects)) { ?>
         <?php foreach($_userbox_projects as $_userbox_project) { ?>
         <li><a href="<?php echo $_userbox_project->getOverviewUrl() ?>"><?php echo clean($_userbox_project->getName()) ?></a></li>
         <?php } // foreach ?>
@@ -22,8 +23,8 @@
           <?php } // foreach ?>
 </ul></li>
         <?php } // foreach ?>
-<?php } // if ?>     
-      
+<?php } // if ?>
+
     <li><a href="<?php echo get_url('dashboard', 'my_projects') ?>"><?php echo lang('my projects') ?></a>
       <ul>
 <?php if (logged_user()->canManageProjects()) { ?>
