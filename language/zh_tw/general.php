@@ -266,7 +266,7 @@
   'not favorite' => '不是我的最愛',
   'input date format' => 'M d, yy',
   'hours/lc' => '小時',
-  'radio' => 'radio',
+  'radio' => '網路廣播',
 
 
   ); // array
