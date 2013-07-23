@@ -33,11 +33,23 @@
     'add user' => '增加用戶',
     'edit user' => '編輯用戶',
     'delete user' => '刪除用戶',
+      
+    // Contacts
+    'add contact' => '新增聯絡人',
+    'edit contact' => '編輯聯絡人',
+    'delete contact' => '刪除聯絡人',
+    'edit user account' => '編輯使用者的聯絡人',
+    'delete user account' => '刪除使用者的聯絡人',
+    'toggle favorite' => '加入/移除我的最愛',
+    'done adding contacts' => '新增聯絡人成功',
+    'list view' => '清單檢視',
+    'detail view' => '完整檢視',
     
     // Project
     'add project' => '增加專案',
     'copy project' => '複製專案',
     'edit project' => '編輯專案詳情',
+    'recover last input' => '恢復上次儲存內容',
     'delete project' => '刪除專案',
     'mark project as finished' => '標記專案為已完成',
     'mark project as active' => '標記專案為活動',
@@ -51,10 +63,10 @@
     'add days' => '在專案中所有天數總計',
     
     // Messages
-    'add message' => '增加消息',
-    'edit message' => '編輯消息',
-    'delete message' => '刪除消息',
-    'view message' => '查看消息',
+    'add message' => '增加介紹',
+    'edit message' => '編輯介紹',
+    'delete message' => '刪除介紹',
+    'view message' => '查看介紹',
     'update message options' => '更新選項',
     'subscribe to message' => '訂閱',
     'unsubscribe from message' => '取消訂閱',

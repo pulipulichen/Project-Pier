@@ -18,8 +18,8 @@
     'company homepage invalid' => '主頁地址格式錯誤(http://www.example.com)',
     
     // User validation errors
-    'username value required' => '需要填寫用戶名',
-    'username must be unique' => '抱歉，所選用戶名已經被使用了',
+    'username value required' => '需要填寫帳號',
+    'username must be unique' => '抱歉，所選帳號已經被使用了',
     'email value is required' => '需要填寫郵件地址',
     'email address must be unique' => '抱歉，所選郵件地址已經被使用了',
     'company value required' => '用戶必須是某公司的成員',
@@ -43,7 +43,7 @@
     'failed to load project' => '載入活動項目失敗',
     
     // Login form
-    'username value missing' => '請輸入你的用戶名',
+    'username value missing' => '請輸入你的帳號',
     'password value missing' => '請輸入你的用密碼',
     'invalid login data' => '登陸失敗，請檢查你的登陸信息後重試',
     

@@ -18,7 +18,7 @@
     'online users' => '在線用戶',
     'online users desc' => '在最近15分鍾的活動用戶:',
     
-    'dashboard' => '儀錶板',
+    'dashboard' => '活動摘要',
     'administration' => '管理',
     'my account' => '我的帳戶',
     'my settings' => '我的設置',
@@ -100,7 +100,7 @@
     'new account step1' => '步驟 1: 更新你的公司信息',
     'new account step1 info' => '<a href="%s">設置你的公司信息</a> 例如電話號碼，傳真號碼，地址，電子郵件，主頁等等。',
     'new account step2' => '步驟 2: 增加專案成員',
-    'new account step2 info' => '你能 <a href="%s">新建用戶帳戶</a> ，為所有專案團隊成員 (不限製成員數量)。 每一個成員將受到用來訪問本系統的用戶名和密碼',
+    'new account step2 info' => '你能 <a href="%s">新建用戶帳戶</a> ，為所有專案團隊成員 (不限製成員數量)。 每一個成員將受到用來訪問本系統的帳號和密碼',
     'new account step3' => '步驟 3: 增加公司和他們的成員',
     'new account step3 info' => '現在來 <a href="%s">定義客戶公司</a> (不限制數量). 在完成了之後，你能增加他們的專案成員，或者把這個工作交給他們的團隊領導。客戶成員和你公司的成員類似 ，除了他們只有有限的內容和功能的訪問許可權 (你可以按照每個專案或者成員來設置他們能作什麼)',
     'new account step4' => '步驟 4: 開始一個專案',

@@ -49,7 +49,7 @@
     
     // General
     'config option name site_name' => '地點名稱',
-    'config option desc site_name' => '這個值將被作為專案的地點名稱在儀錶板頁面上顯示',
+    'config option desc site_name' => '這個值將被作為專案的地點名稱在活動摘要頁面上顯示',
     'config option name file_storage_adapter' => '文件存儲',
     'config option desc file_storage_adapter' => '選擇用來存儲附件、頭像、圖標圖片和其他任何上傳文檔的位置。 <strong>推薦使用資料庫引擎存儲</strong>.',
     'config option name default_project_folders' => '預設文件夾',
@@ -89,7 +89,7 @@
     'config option name smtp_server' => 'SMTP 伺服器',
     'config option name smtp_port' => 'SMTP 埠',
     'config option name smtp_authenticate' => '使用SMTP認證',
-    'config option name smtp_username' => 'SMTP 用戶名',
+    'config option name smtp_username' => 'SMTP 帳號',
     'config option name smtp_password' => 'SMTP 密碼',
     'config option name smtp_secure_connection' => '使用安全SMTP連接',
 

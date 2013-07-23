@@ -10,7 +10,7 @@
 
   // Return array of langs
   return array(
-    'username' => '用戶名',
+    'username' => '帳號',
     'password' => '密碼',
     'password again' => '重復輸入密碼',
     'old password' => '舊密碼',
@@ -47,6 +47,9 @@
     'done date' => '日期',
     'assign to' => '指派',
     'not assigned' => '未指派',
+    'start date' => '開始日期',
+    'end date' => '結束日期',
+    'weekly schedule' => '每週活動',
     'late' => '之後',
     'upcoming' => '即將',
     'today' => '今天',
@@ -126,7 +129,7 @@
     'hide options' => '隱藏選項',
     'hide' => '隱藏',
     'language' => '語言',
-    'enable trace' => '啟用跟蹤',
+    'enable trace' => '啟用操作記錄',
     'theme' => '皮膚',
     'chat' => '聊天',
     

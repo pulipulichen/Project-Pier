@@ -12,6 +12,8 @@
     // Objects
     'user' => '用戶',
     'users' => '用戶',
+    'contact' => '聯絡人',
+    'contacts' => '聯絡人清單',
     'member' => '成員',
     'members' => '成員',
     'company' => '公司',
