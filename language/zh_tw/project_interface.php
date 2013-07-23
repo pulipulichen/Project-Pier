@@ -20,7 +20,7 @@
     // Options and descriptions
     'important message desc' => '重要訊息被列在了專案訊息頁面的側欄「重要訊息」中',
     'enable comments' => '啟用評論',
-    'enable comments desc' => '能查看這個對象的用戶能夠對它發表評論。選擇 "否" 來鎖定評論',
+    'enable comments desc' => '能查看這個對象的使用者能夠對它發表評論。選擇 "否" 來鎖定評論',
     'enable anonymous comments' => '匿名評論',
     'enable anonymous comments desc' => '允許匿名的評論被發表在這個專案上。匿名評論可以通過API或者其他訊息訊息源來發布 (如果啟用了). 作者必須提供一個有效的姓名和電子郵件地址。 來源的 IP 地址將被記錄下來。',
   
@@ -55,7 +55,7 @@
     'projects copy messages' => '複製訊息',
     'projects copy comments' => '複製評論',
     'projects copy files' => '複製文件',
-    'projects copy users' => '複製用戶和公司',
+    'projects copy users' => '複製使用者和公司',
     'projects copy links' => '複製鏈接',
     'projects copy pages' => '複製 Wiki 頁面',
 
@@ -71,14 +71,14 @@
     'can change milestones status' => '能變更里程碑的狀態',
     'can manage times' => '能管理時間',
     
-    'send milestone assigned to notification' => '發送郵件通知給用戶',
+    'send milestone assigned to notification' => '發送郵件通知給使用者',
     'task list target project' => '專案來移動專案清單到',
     
     'edit company data' => '<a href="%s">編輯</a> 公司數據',
-    'company users involved in project' => '%s 個用戶參與在 %s',
+    'company users involved in project' => '%s 個使用者參與在 %s',
     'companies involved in project' => '參與專案的公司',
     
-    'project permissions form hint' => '使用 <a href="%s">許可權表單</a> 你能方便地增加或者刪除公司和用戶，並控制他們的訪問許可權.',
+    'project permissions form hint' => '使用 <a href="%s">許可權表單</a> 你能方便地增加或者刪除公司和使用者，並控制他們的訪問許可權.',
     
     'additional message text desc' => '只在評論頁面上可見的附加訊息文字',
     'expand additional text' => '展開',
@@ -87,7 +87,7 @@
     'email notification desc' => '通過郵件把這個訊息通知給選中的人',
     
     'subscribers desc' => '訂閱將在當其他人發布一個評論在這個訊息上的時候收到一個郵件通知',
-    'admins can post comments on locked objects desc' => '<strong>評論已被鎖定</strong>，但是你作為管理員將會有許可權發布評論。注意如果你期望從你的客戶或者非管理員用戶收到回復，你需要對這個對象的評論解鎖  <i>(設置 "啟用評論" 選項為 "是")</i>.',
+    'admins can post comments on locked objects desc' => '<strong>評論已被鎖定</strong>，但是你作為管理員將會有許可權發布評論。注意如果你期望從你的客戶或者非管理員使用者收到回復，你需要對這個對象的評論解鎖  <i>(設置 "啟用評論" 選項為 "是")</i>.',
     
     'all permissions' => '所有',
     

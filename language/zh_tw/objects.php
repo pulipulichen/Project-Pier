@@ -10,8 +10,8 @@
   return array(
   	  
     // Objects
-    'user' => '用戶',
-    'users' => '用戶',
+    'user' => '使用者',
+    'users' => '使用者',
     'contact' => '聯絡人',
     'contacts' => '聯絡人清單',
     'member' => '成員',

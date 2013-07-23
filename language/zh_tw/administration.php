@@ -77,7 +77,7 @@
     'config option name upgrade_check_enabled' => '使用升級包在線檢查',
     'config option desc upgrade_check_enabled' => '如果選 \'是\' 系統將每天檢查是否ProjectPier有可以下載的新版本發布',
     'config option name logout_redirect_page' => '退出頁面重定向頁面',
-    'config option desc logout_redirect_page' => '配置當用戶退出系統後，被重定向的跳轉頁面。使用預設字元串變更到預設配置',
+    'config option desc logout_redirect_page' => '配置當使用者退出系統後，被重定向的跳轉頁面。使用預設字元串變更到預設配置',
     
     // Mailing
     'config option name exchange_compatible' => 'Microsoft Exchange相容模式',

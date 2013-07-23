@@ -15,8 +15,8 @@
     'my tasks' => '我的任務',
     'welcome back' => '歡迎 <strong>%s</strong> 回來',
 
-    'online users' => '在線用戶',
-    'online users desc' => '在最近15分鍾的活動用戶:',
+    'online users' => '在線使用者',
+    'online users desc' => '在最近15分鍾的活動使用者:',
     
     'dashboard' => '活動摘要',
     'administration' => '管理',
@@ -61,7 +61,7 @@
     'days left' => '%s 天剩餘',
     'day left' => '%s 天剩餘',
     
-    'user card of' => '%s 的用戶訊息卡',
+    'user card of' => '%s 的使用者訊息卡',
     'company card of' => '%s 的公司訊息卡',
     
     // Upgrade
@@ -81,7 +81,7 @@
     'welcome to administration info' => '歡迎來的管理員控制面板。通過這個工具，您能管理您的公司數據，成員，客戶和您所參與的專案。',
     
     'send new account notification' => '發送郵件通知?',
-    'send new account notification desc' => '如果你選擇「是」，這個用戶將受到一個帶有歡迎訊息和登錄訊息的郵件',
+    'send new account notification desc' => '如果你選擇「是」，這個使用者將受到一個帶有歡迎訊息和登錄訊息的郵件',
     
     // Tools
     'administration tools' => '工具',
@@ -100,7 +100,7 @@
     'new account step1' => '步驟 1: 更新你的公司訊息',
     'new account step1 info' => '<a href="%s">設置你的公司訊息</a> 例如電話號碼，傳真號碼，地址，電子郵件，主頁等等。',
     'new account step2' => '步驟 2: 增加專案成員',
-    'new account step2 info' => '你能 <a href="%s">新建用戶帳戶</a> ，為所有專案團隊成員 (不限製成員數量)。 每一個成員將受到用來訪問本系統的帳號和密碼',
+    'new account step2 info' => '你能 <a href="%s">新建使用者帳戶</a> ，為所有專案團隊成員 (不限製成員數量)。 每一個成員將受到用來訪問本系統的帳號和密碼',
     'new account step3' => '步驟 3: 增加公司和他們的成員',
     'new account step3 info' => '現在來 <a href="%s">定義客戶公司</a> (不限制數量). 在完成了之後，你能增加他們的專案成員，或者把這個工作交給他們的團隊領導。客戶成員和你公司的成員類似 ，除了他們只有有限的內容和功能的訪問許可權 (你可以按照每個專案或者成員來設置他們能作什麼)',
     'new account step4' => '步驟 4: 開始一個專案',
@@ -124,7 +124,7 @@
     'recent project activities feed' => '關於 %s 專案最近的活動',
     
     // Update company permissions
-    'update company permissions hint' => '選擇這個公司可以訪問的專案。注意你還需要去為公司成員設定訪問許可權  (同樣的你還能在專案的人員頁面上或者通過用戶的profile).',
+    'update company permissions hint' => '選擇這個公司可以訪問的專案。注意你還需要去為公司成員設定訪問許可權  (同樣的你還能在專案的人員頁面上或者通過使用者的profile).',
     
     'footer copy with homepage' => '&copy; %s by <a href="%s">%s</a>. 版權所有',
     'footer copy without homepage' => '&copy; %s by %s. 版權所有',

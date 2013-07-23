@@ -30,9 +30,9 @@
     'delete client' => '刪除客戶',
     
     // Users
-    'add user' => '增加用戶',
-    'edit user' => '編輯用戶',
-    'delete user' => '刪除用戶',
+    'add user' => '增加使用者',
+    'edit user' => '編輯使用者',
+    'delete user' => '刪除使用者',
       
     // Contacts
     'add contact' => '新增聯絡人',
@@ -48,7 +48,7 @@
     // Project
     'add project' => '增加專案',
     'copy project' => '複製專案',
-    'edit project' => '編輯專案詳情1',
+    'edit project' => '編輯專案詳情',
     'recover last input' => '恢復上次儲存內容',
     'delete project' => '刪除專案',
     'mark project as finished' => '標記專案為已完成',

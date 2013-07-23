@@ -134,7 +134,7 @@
     'chat' => '聊天',
     
     'project calendar' => '%s 專案日歷',
-    'user calendar' => '%s 的用戶日歷',
+    'user calendar' => '%s 的使用者日歷',
     
     'month 1' => '一月',
     'month 2' => '二月',

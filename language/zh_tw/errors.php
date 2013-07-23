@@ -22,7 +22,7 @@
     'username must be unique' => '抱歉，所選帳號已經被使用了',
     'email value is required' => '需要填寫郵件地址',
     'email address must be unique' => '抱歉，所選郵件地址已經被使用了',
-    'company value required' => '用戶必須是某公司的成員',
+    'company value required' => '使用者必須是某公司的成員',
     'password value required' => '密碼需要填寫',
     'passwords dont match' => '密碼不一致',
     'old password required' => '需要舊的密碼',
@@ -78,7 +78,7 @@
     // Mass mailer
     'massmailer subject required' => '訊息主題是必須的',
     'massmailer message required' => '訊息訊息是必須的',
-    'massmailer select recipients' => '選擇將收到此郵件的用戶',
+    'massmailer select recipients' => '選擇將收到此郵件的使用者',
 
 
   // errors.php Merge Result
