@@ -56,10 +56,10 @@
     'new avatar notice' => '注意當前的頭像將被刪除，被新頭像替換!',
     'new logo notice' => '注意當前的圖標將被刪除，被新的替換!',
     
-    'days late' => '%s 天以後',
-    'day late' => '%s 天以後',
-    'days left' => '%s 天剩餘',
-    'day left' => '%s 天剩餘',
+    'days late' => '%s 天以前',
+    'day late' => '%s 天以前',
+    'days left' => '剩餘 %s 天',
+    'day left' => '剩餘 %s 天',
     
     'user card of' => '%s 的使用者訊息卡',
     'company card of' => '%s 的公司訊息卡',
@@ -87,11 +87,11 @@
     'administration tools' => '工具',
     
     'test mail recipient' => '測試收件人',
-    'test mail message' => '測試訊息',
-    'test mail message subject' => '訊息主題',
+    'test mail message' => '測試信件',
+    'test mail message subject' => '信件主題',
     
-    'massmailer subject' => '主題',
-    'massmailer message' => '訊息',
+    'massmailer subject' => '主旨',
+    'massmailer message' => '內文',
     'massmailer recipients' => '收件人',
     
     // Dashboard

@@ -12,11 +12,11 @@
   
     // Empty, dnx etc
     'project dnx' => '所請求的專案在資料庫中不存在',
-    'message dnx' => '所請求的訊息不存在',
-    'no comments in message' => '這個訊息上沒有評論',
+    'message dnx' => '所請求的留言不存在',
+    'no comments in message' => '這個留言沒有評論',
     'no comments associated with object' => '這個專案上沒有評論被發表',
-    'no messages in project' => '這個專案上沒有訊息',
-    'no subscribers' => '沒有使用者訂閱這個訊息',
+    'no messages in project' => '這個專案上沒有留言',
+    'no subscribers' => '沒有使用者訂閱這個留言',
 
     'no activities in project' => '這個專案上還沒有活動被記錄',
     'comment dnx' => '所請求的評論不存在',
@@ -26,8 +26,8 @@
     'task dnx' => '所請求的任務不存在',
     'no milestones in project' => '在這個專案中還沒有里程碑',
     'no active milestones in project' => '在這個專案中還沒有活動的里程碑',
-    'empty milestone' => '這個里程碑是空的。你能給它在任何時候增加 <a href="%s">訊息</a> 或者 <a href="%s">任務清單</a> ',
-    'no logs for project' => '這個專案還沒有記錄相關的訊息',
+    'empty milestone' => '這個里程碑是空的。你能給它在任何時候增加 <a href="%s">留言</a> 或者 <a href="%s">任務清單</a> ',
+    'no logs for project' => '這個專案還沒有記錄相關的留言',
     'no recent activities' => '在資料庫中最近沒有活動被記錄',
     'no open task lists in project' => '在這個專案中還沒有開放的任務清單',
     'no completed task lists in project' => '在這個專案中還沒有完成的任務清單',
@@ -81,9 +81,9 @@
     'success edit time' => '時間 \'%s\' 已被更新',
     'success deleted time' => '時間 \'%s\' 已被刪除',
     
-    'success add message' => '訊息 %s 已經被成功增加',
-    'success edit message' => '訊息 %s 已被更新',
-    'success deleted message' => '訊息 \'%s\' 和它所有相關評論已被刪除',
+    'success add message' => '留言 %s 新增成功',
+    'success edit message' => '留言 %s 已被更新',
+    'success deleted message' => '留言 \'%s\' 和它所有相關評論已被刪除',
     
     'success add comment' => '評論已經被成功發表',
     'success edit comment' => '評論已經被成功更新',
@@ -127,8 +127,8 @@
     'success complete milestone' => '里程碑 \'%s\' 已被完成',
     'success open milestone' => '里程碑 \'%s\' 已被重新開放',
     
-    'success subscribe to message' => '你已成功地訂閱了這個訊息',
-    'success unsubscribe to message' => '你已成功地解除了這個訊息的訂閱',
+    'success subscribe to message' => '你已成功地訂閱了這個留言',
+    'success unsubscribe to message' => '你已成功地解除了這個留言的訂閱',
    
     'success add project form' => '表單 \'%s\' 已被增加',
     'success edit project form' => '表單 \'%s\' 已被更新',
@@ -140,14 +140,14 @@
     'success test mail settings' => '測試郵件被成功地發送',
     'success massmail' => '郵件被發送',
     
-    'success update company permissions' => '公司許可權訊息 %s 已被更新',
+    'success update company permissions' => '公司權限 %s 已被更新',
     'success user permissions updated' => '使用者許可權已被更新',
     
     // Failures
     'error form validation' => '由於某些屬性數據不合法，對象保存失敗',
     'error delete owner company' => '所屬公司不能被被刪除',
-    'error delete message' => '所選訊息刪除失敗',
-    'error update message options' => '更新訊息選項失敗',
+    'error delete message' => '所選留言刪除失敗',
+    'error update message options' => '更新留言選項失敗',
     'error delete comment' => '所選評論刪除失敗',
     'error delete milestone' => '所選里程碑刪除失敗',
     'error delete time' => '所選時間刪除失敗',
@@ -170,14 +170,14 @@
     'error open milestone' => '所選里程碑重新開放失敗',
     'error edit company logo' => '公司圖標更新失敗',
     'error delete company logo' => '公司圖標刪除失敗',
-    'error subscribe to message' => '訂閱所選訊息失敗',
-    'error unsubscribe to message' => '取消訂閱所選訊息失敗',
+    'error subscribe to message' => '訂閱所選留言失敗',
+    'error unsubscribe to message' => '取消訂閱所選留言失敗',
 
     'error delete task list' => '所選任務清單刪除失敗',
     'error delete task' => '所選任務刪除失敗',
     'error delete category' => '所選分類刪除失敗',
     'error check for upgrade' => '檢查新版本失敗',
-    'error test mail settings' => '發送測試訊息失敗',
+    'error test mail settings' => '發送測試信件失敗',
     'error massmail' => '發送郵件失敗',
     'error owner company has all permissions' => '所屬公司具有所有許可權',
     
@@ -186,13 +186,13 @@
     'invalid request' => '無效的請求!',
     
     // Confirmation
-    'confirm delete message' => '你確定要刪除這個訊息?',
+    'confirm delete message' => '你確定要刪除這個留言?',
     'confirm delete milestone' => '你確定要刪除這個里程碑?',
     'confirm delete task list' => '你確定要刪除這個任務清單和它的所有任務?',
     'confirm delete task' => '你確定要刪除這個任務?',
     'confirm delete comment' => '你確定要刪除這個評論?',
     'confirm delete category' => '你確定要刪除這個分類?',
-    'confirm delete project' => '你確定要刪除這個專案和它的所有數據(訊息, 任務, 里程碑, 文件...)?',
+    'confirm delete project' => '你確定要刪除這個專案和它的所有數據(留言, 任務, 里程碑, 文件...)?',
     'confirm delete project logo' => '你確定要刪除這個圖標?',
     'confirm complete project' => '你確定要把這個專案標記完成? 所有專案活動將被鎖定',
     'confirm open project' => '你確定要把這個專案標記開放? 這會把所有專案活動解鎖',
@@ -204,7 +204,7 @@
     'confirm logout' => '你確定要從系統中退出?',
     'confirm delete current avatar' => '你確定要把此頭像刪除?',
     'confirm delete company logo' => '你確定要把此公司圖標刪除?',
-    'confirm subscribe' => '你確定要訂閱此訊息? 你想在除你之外的人對此訊息評論的時候收到通知郵件',
+    'confirm subscribe' => '你確定要訂閱此留言? 你想在除你之外的人對此留言評論的時候收到通知郵件',
     'confirm reset form' => '你確定要重置這個表單?',
     
     // Errors...

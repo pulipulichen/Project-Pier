@@ -34,7 +34,7 @@
 
       // Gets desired view 'detail' or 'list'
       // $view_type is from URL, Cookie or set to default: 'list'
-      $view_type = array_var($_GET, 'view', Cookie::getValue('milestonesViewType', 'list'));
+      $view_type = array_var($_GET, 'view', Cookie::getValue('milestonesViewType', 'details'));
       $expiration = Cookie::getValue('remember'.TOKEN_COOKIE_NAME) ? REMEMBER_LOGIN_LIFETIME : null;
       Cookie::setValue('milestonesViewType', $view_type, $expiration);
       $filter_assigned = array_var($_GET, 'assigned', Cookie::getValue('milestonesFilterAssigned', 'all'));

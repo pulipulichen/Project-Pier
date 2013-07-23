@@ -52,7 +52,7 @@
     'projects copy folders' => '複製文件夾',
     'projects copy tasks' => '複製任務',
     'projects copy milestones' => '複製里程碑',
-    'projects copy messages' => '複製訊息',
+    'projects copy messages' => '複製留言',
     'projects copy comments' => '複製評論',
     'projects copy files' => '複製文件',
     'projects copy users' => '複製使用者和公司',
@@ -61,7 +61,7 @@
 
     'can manage files' => '能管理文件',
     'can upload files' => '能上傳文件',
-    'can manage messages' => '能管理訊息',
+    'can manage messages' => '能管理留言',
     'can manage milestones' => '能管理里程碑',
     'can manage comments' => '能管理評論',
     'can manage tasks' => '能管理任務',
@@ -80,13 +80,13 @@
     
     'project permissions form hint' => '使用 <a href="%s">許可權表單</a> 你能方便地增加或者刪除公司和使用者，並控制他們的訪問許可權.',
     
-    'additional message text desc' => '只在評論頁面上可見的附加訊息文字',
+    'additional message text desc' => '只在評論頁面上可見的附加留言文字',
     'expand additional text' => '展開',
     'collapse additional text' => '收縮',
     'email notification' => '郵件通知',
-    'email notification desc' => '通過郵件把這個訊息通知給選中的人',
+    'email notification desc' => '通過郵件把這個留言通知給選中的人',
     
-    'subscribers desc' => '訂閱將在當其他人發布一個評論在這個訊息上的時候收到一個郵件通知',
+    'subscribers desc' => '訂閱將在當其他人發布一個評論在這個留言上的時候收到一個郵件通知',
     'admins can post comments on locked objects desc' => '<strong>評論已被鎖定</strong>，但是你作為管理員將會有許可權發布評論。注意如果你期望從你的客戶或者非管理員使用者收到回復，你需要對這個對象的評論解鎖  <i>(設置 "啟用評論" 選項為 "是")</i>.',
     
     'all permissions' => '所有',

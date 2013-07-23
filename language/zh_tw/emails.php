@@ -10,7 +10,7 @@
   return array(
   
     // Titles
-    'new message' => '新的訊息',
+    'new message' => '新的信件',
     'new comment' => '新的評論',
     'your account created' => '您的帳戶已經被建立',
     'your password' => '您的密碼',

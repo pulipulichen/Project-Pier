@@ -14,11 +14,11 @@
     'register' => '注冊',
     'login' => '登入',
     'logout' => '登出',
-    'hide welcome info' => '永久地隱藏這個訊息',
+    'hide welcome info' => '隱藏歡迎資訊',
     
     // Companies
     'add company' => '增加公司',
-    'edit company' => '更新公司訊息',
+    'edit company' => '編輯公司細節',
     'delete company' => '刪除公司',
     'edit company logo' => '更新圖標',
     'delete company logo' => '刪除圖標',
@@ -63,13 +63,13 @@
     'add days' => '在專案中所有天數總計',
     
     // Messages
-    'add message' => '增加介紹',
-    'edit message' => '編輯介紹',
-    'delete message' => '刪除介紹',
-    'view message' => '查看介紹',
-    'update message options' => '更新選項',
-    'subscribe to message' => '訂閱',
-    'unsubscribe from message' => '取消訂閱',
+    'add message' => '撰寫留言',
+    'edit message' => '編輯留言',
+    'delete message' => '刪除留言',
+    'view message' => '查看留言',
+    'update message options' => '更新留言選項',
+    'subscribe to message' => '訂閱留言',
+    'unsubscribe from message' => '取消訂閱留言',
     
     // Comments
     'add comment' => '發表評論',
@@ -108,7 +108,7 @@
     'remove company from project' => '從專案中刪除',
     
     // Password
-    'update profile' => '更新個人訊息',
+    'update profile' => '編輯個人資料',
     'change password' => '修改密碼',
     'update avatar' => '修改頭像',
     'delete current avatar' => '刪除當前頭像',
@@ -121,7 +121,7 @@
     'send notification' => '發送提醒',
 
     // Download
-    'task download header' => "專案\t任務清單\t狀態\t描述\t編號\t狀態\t訊息\t受派人\t任務\r\n",
+    'task download header' => "專案\t任務清單\t狀態\t描述\t編號\t狀態\t留言\t受派人\t任務\r\n",
     '%s items downloaded' => '%s 項在下載',
     'nothing to download' => "沒有數據在 '%s' 可以被下載",
     'download task lists' => '下載所有任務',
