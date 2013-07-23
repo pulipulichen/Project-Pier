@@ -30,7 +30,7 @@
     'delete client' => '刪除客戶',
     
     // Users
-    'add user' => '增加使用者',
+    'add user' => '將聯絡人登入為系統使用者',
     'edit user' => '編輯使用者',
     'delete user' => '刪除使用者',
       

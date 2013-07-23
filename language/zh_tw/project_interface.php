@@ -144,7 +144,7 @@
   'project to move to' => '移動專案 %s 到',
   'edit project to select milestone' => '<em>編輯專案細節以選擇里程碑</em>',
   'users involved in project' => '已經參與的使用者',
-  'edit project to select message' => '<em>編輯專案細節以選擇一個留言/em>',
+  'edit project to select message' => '<em>編輯專案細節以選擇一個留言</em>',
   'attach existing contact' => '附加一位已經建立的聯絡人 (從聯絡簿中)',
   'new contact' => '新聯絡人',
   'select contact' => '選擇聯絡人',
