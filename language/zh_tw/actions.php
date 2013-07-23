@@ -130,7 +130,7 @@
   // actions.php Merge Result
   'edit logo' => '編輯圖示',
   'delete logo' => '刪除圖示',
-  'add user account' => '增加使用者',
+  'add user account' => '將聯絡人登錄為系統使用者',
   'add text snippet' => '增加附件',
   'add text snippets' => '增加多個附件',
   'move message' => '移動介紹',
