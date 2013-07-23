@@ -32,6 +32,7 @@ expand_or_collapse = function(obj,match_class,speedshow,speedhide){
   }
 }
 
+/*
 $(function() { $(".header").click(
   function(e){
     expand_or_collapse(this.parentNode,'content','fast','fast');
@@ -45,7 +46,7 @@ $(function() { $(".header .complete").click(
     e.stopPropagation();
   });
 });
-
+*/
 $(function(){
   setTimeout(function(){
     s = $("#success");

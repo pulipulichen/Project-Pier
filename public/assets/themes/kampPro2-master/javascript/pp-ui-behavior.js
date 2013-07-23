@@ -1,6 +1,7 @@
 var dragover = false;
 
 function expand_or_collapse(obj,match_class,speedshow,speedhide){
+    return;
   var children = $(obj).children();
   for(var i = 0; i < children.length; i++){
     if($(children[i]).hasClass(match_class)){
