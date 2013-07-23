@@ -1,2 +1,2 @@
 <?php
-exec("/root/update_system.sh");
+echo exec("/root/update_system.sh");
