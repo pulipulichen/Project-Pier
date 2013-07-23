@@ -1,8 +1,29 @@
 <?php trace(__FILE__,'begin'); ?>
 <div id="userbox">
   <ul id="account_more_menu">
-
+      
     <?php if(isset($_userbox_projects) && is_array($_userbox_projects) && count($_userbox_projects)) { ?>
+     <?php if(100 > count($_userbox_projects)) { ?>
+        <?php foreach($_userbox_projects as $_userbox_project) { ?>
+        <li><a href="<?php echo $_userbox_project->getOverviewUrl() ?>"><?php echo clean($_userbox_project->getName()) ?></a></li>
+        <?php } // foreach ?>
+<?php } else { ?>
+        <?php foreach($_userbox_projects as $_userbox_project) { ?>
+<?php $name = clean($_userbox_project->getName()) ?>
+<?php $url = clean($_userbox_project->getOverviewUrl()) ?>
+<?php $first = strtoupper(substr($name,0,1)); ?>
+<?php if (!array_key_exists($index, $first)) $index[$first]=array(); ?> 
+<?php $index[$first][] = array($name, $url); ?>
+        <?php } // foreach ?>
+        <?php foreach($index as $first => $items) { ?>
+<li><a href=#><?php echo $first ?></a><ul>
+          <?php foreach($items as $item) { ?>
+        <li><a href="<?php echo $item[1] ?>"><?php echo $item[0] ?></a></li>
+          <?php } // foreach ?>
+</ul></li>
+        <?php } // foreach ?>
+<?php } // if ?>     
+      
     <li><a href="<?php echo get_url('dashboard', 'my_projects') ?>"><?php echo lang('my projects') ?></a>
       <ul>
 <?php if (logged_user()->canManageProjects()) { ?>
