@@ -138,5 +138,6 @@
   'pdf' => 'PDF',
   'view milestone' => 'View milestone',
   'select language' => 'Select language',
+);
 
 ?>
