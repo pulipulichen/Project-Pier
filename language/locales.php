@@ -28,6 +28,7 @@ $locales = array(
   'tr_tr' => 'Turkish (Turkey)',
   'vn_vn' => 'Vietnamese',
   'zh_cn' => 'Simplified Chinese (China)',
+  'zh_tw' => 'Traditional Chinese (Taiwan)',
 );
 
 ?>
