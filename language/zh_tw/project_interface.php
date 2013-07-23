@@ -10,7 +10,7 @@
 
   // Array of langs
   return array(
-    'upcoming milestones in next 30 days' => '近期的里程碑(在下一個30天里)',
+    'upcoming milestones in next 30 days' => '近期的里程碑',
     'show all upcoming milestones' => '顯示所有將來的里程碑 (總共 %s 個)',
   
     'recent activities' => '最近的活動',

@@ -60,8 +60,43 @@
 </div>
 <?php } // if ?>
 
-<?php if ($late_milestones || $today_milestones || $upcoming_milestones) { ?>
+<?php if ($late_milestones || $today_milestones || $upcoming_milestones || $completed_milestones) { ?>
 <h2><?php echo lang('milestones') ?></h2>
+<?php } // if ?>
+
+<?php if (isset($completed_milestones) && is_array($completed_milestones) && count($completed_milestones)) { ?>
+
+<div class="block">
+  <div class="header"><?php echo lang('completed milestones') ?></div>
+  <div class="content">
+    <ul>
+<?php foreach ($completed_milestones as $completed_milestone) { ?>
+
+<?php 
+    //if ($upcoming_milestone->getLeftInDays() <= 30) { 
+    if (true) { 
+?>
+
+<?php if ($completed_milestone->getAssignedTo() instanceof ApplicationDataObject) { ?>
+    <li><?php echo clean($completed_milestone->getAssignedTo()->getObjectName()) ?>: <a href="<?php echo $completed_milestone->getViewUrl() ?>"><?php echo clean($completed_milestone->getName()) ?></a> (<?php echo format_descriptive_date($completed_milestone->getDueDate()) ?> - <?php echo format_days('days left', $completed_milestone->getLeftInDays()) ?>)</li>
+<?php } else { ?>
+    <li><a href="<?php echo $completed_milestone->getViewUrl() ?>"><?php echo clean($completed_milestone->getName()) ?></a> (<?php echo format_descriptive_date($completed_milestone->getDueDate()) ?> - <?php echo format_days('days left', $completed_milestone->getLeftInDays()) ?>)</li>
+<?php } // if ?>
+
+<?php } else { ?>
+    </ul>
+    <p>
+        <a href="<?php echo active_project()->getMilestonesUrl() ?>#completedMilestones"> 
+            <?php echo lang('show all upcoming milestones', count($completed_milestones)) ?>
+        </a>
+    </p>
+<?php break; ?>
+<?php } // foreach ?>
+
+<?php } // if?>
+    </ul>
+  </div>
+</div>
 <?php } // if ?>
 
 <?php if ((is_array($late_milestones) && count($late_milestones)) || (is_array($today_milestones) && count($today_milestones))) { ?>
@@ -101,7 +136,10 @@
     <ul>
 <?php foreach ($upcoming_milestones as $upcoming_milestone) { ?>
 
-<?php if ($upcoming_milestone->getLeftInDays() <= 30) { ?>
+<?php 
+    //if ($upcoming_milestone->getLeftInDays() <= 30) { 
+    if (true) { 
+?>
 
 <?php if ($upcoming_milestone->getAssignedTo() instanceof ApplicationDataObject) { ?>
     <li><?php echo clean($upcoming_milestone->getAssignedTo()->getObjectName()) ?>: <a href="<?php echo $upcoming_milestone->getViewUrl() ?>"><?php echo clean($upcoming_milestone->getName()) ?></a> (<?php echo format_descriptive_date($upcoming_milestone->getDueDate()) ?> - <?php echo format_days('days left', $upcoming_milestone->getLeftInDays()) ?>)</li>
@@ -111,7 +149,11 @@
 
 <?php } else { ?>
     </ul>
-    <p><a href="<?php echo active_project()->getMilestonesUrl() ?>#upcomingMilestones"> <?php echo lang('show all upcoming milestones', count($upcoming_milestones)) ?></a></p>
+    <p>
+        <a href="<?php echo active_project()->getMilestonesUrl() ?>#upcomingMilestones"> 
+            <?php echo lang('show all upcoming milestones', count($upcoming_milestones)) ?>
+        </a>
+    </p>
 <?php break; ?>
 <?php } // foreach ?>
 

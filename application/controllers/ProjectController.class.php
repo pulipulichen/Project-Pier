@@ -57,6 +57,7 @@
       tpl_assign('late_milestones', $project->getLateMilestones());
       tpl_assign('today_milestones', $project->getTodayMilestones());
       tpl_assign('upcoming_milestones', $project->getUpcomingMilestones());
+      tpl_assign('completed_milestones', $project->getCompletedMilestones());
       
       // Sidebar
       tpl_assign('visible_forms', $project->getVisibleForms(true));
