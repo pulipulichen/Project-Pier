@@ -48,7 +48,7 @@
     // Project
     'add project' => '增加專案',
     'copy project' => '複製專案',
-    'edit project' => '編輯專案詳情',
+    'edit project' => '編輯專案詳情1',
     'recover last input' => '恢復上次儲存內容',
     'delete project' => '刪除專案',
     'mark project as finished' => '標記專案為已完成',
