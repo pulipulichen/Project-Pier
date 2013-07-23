@@ -128,16 +128,16 @@
 
 
   // actions.php Merge Result
-  'edit logo' => 'Edit logo',
-  'delete logo' => 'Delete logo',
-  'add user account' => 'Add user',
-  'add text snippet' => 'Add text snippet',
-  'add text snippets' => 'Add text snippets',
-  'move message' => 'Move message',
-  'add status update' => 'Post status update',
+  'edit logo' => '編輯圖示',
+  'delete logo' => '刪除圖示',
+  'add user account' => '增加使用者',
+  'add text snippet' => '增加附件',
+  'add text snippets' => '增加多個附件',
+  'move message' => '移動介紹',
+  'add status update' => '增加狀態更新',
   'pdf' => 'PDF',
-  'view milestone' => 'View milestone',
-  'select language' => 'Select language',
+  'view milestone' => '查看里程碑',
+  'select language' => '選擇語言',
 );
 
 ?>

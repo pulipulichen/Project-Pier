@@ -39,11 +39,11 @@
 
 
   // emails.php Merge Result
-  'your account updated' => 'Your account has been updated',
-  'password unchanged' => 'Your password stays unchanged.',
-  'new file posted' => 'New file \"%s\" has been posted in project \"%s\"',
-  'view new file' => 'View that file',
-  'user updated your account' => '%s updated your account',
+  'your account updated' => '你的帳戶已經更新。',
+  'password unchanged' => '你的密碼保持不變。',
+  'new file posted' => '新檔案 \"%s\" 已經加入到專案 \"%s\" 之中',
+  'view new file' => '檢視檔案',
+  'user updated your account' => '%s 更新了你的帳戶。',
 
 
   ); // array

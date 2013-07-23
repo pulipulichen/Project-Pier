@@ -82,10 +82,10 @@
 
 
   // errors.php Merge Result
-  'name value required' => 'Name is required',
-  'existing contact required' => 'You need to select an existing contact',
-  'contact already has user' => 'This contact already has a user account attached to it.',
-  'invalid password' => 'Incorrect password. Please check your password and try again',
+  'name value required' => '需要名字',
+  'existing contact required' => '你需要選擇存在的聯絡人',
+  'contact already has user' => '已經有帳戶連結了這個聯絡人。',
+  'invalid password' => '密碼錯誤。請確認您的密碼是否正確，並再嘗試登入看看。',
 
 
   ); // array

@@ -132,7 +132,7 @@
     
 
   // site_interface.php Merge Result
-  'my files' => 'My files',
+  'my files' => '我的檔案',
 
 
   ); // array

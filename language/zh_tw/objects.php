@@ -67,19 +67,19 @@
 
 
   // objects.php Merge Result
-  'status update' => 'Status update',
-  'status updates' => 'Status updates',
-  'user account' => 'Account',
-  'text snippet' => 'Text snippet',
-  'text snippets' => 'Text snippets',
-  'new company' => 'New company',
-  'existing company' => 'Existing company',
-  'memo' => 'My Project Note',
-  'no folders' => 'No folders',
-  'favorite company' => 'Favorite company',
-  'favorite companies' => 'Favorite companies',
-  'deleted or unknown' => '***Deleted or unknown***',
-  'actions' => 'Actions',
+  'status update' => '狀態更新',
+  'status updates' => '多筆狀態更新',
+  'user account' => '帳戶',
+  'text snippet' => '附件',
+  'text snippets' => '多筆附件',
+  'new company' => '新公司',
+  'existing company' => '已經建立的公司',
+  'memo' => '我的專案筆記',
+  'no folders' => '沒有資料夾',
+  'favorite company' => '常用公司',
+  'favorite companies' => '常用公司',
+  'deleted or unknown' => '***已經刪除或是未知檔案***',
+  'actions' => '動作',
 
   ); // array
 
