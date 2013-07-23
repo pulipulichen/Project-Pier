@@ -36,7 +36,16 @@
     'view assigned milestones' => '查看此里程碑',
 
     'task assigned' => '任務 "%s" 已被分派給了您',
-    
+
+
+  // emails.php Merge Result
+  'your account updated' => 'Your account has been updated',
+  'password unchanged' => 'Your password stays unchanged.',
+  'new file posted' => 'New file \"%s\" has been posted in project \"%s\"',
+  'view new file' => 'View that file',
+  'user updated your account' => '%s updated your account',
+
+
   ); // array
 
 ?>

@@ -64,6 +64,23 @@
     'private time' => '個人時間',
     'private task list' => '個人任務清單',
     'private comment' => '個人評論',  
+
+
+  // objects.php Merge Result
+  'status update' => 'Status update',
+  'status updates' => 'Status updates',
+  'user account' => 'Account',
+  'text snippet' => 'Text snippet',
+  'text snippets' => 'Text snippets',
+  'new company' => 'New company',
+  'existing company' => 'Existing company',
+  'memo' => 'My Project Note',
+  'no folders' => 'No folders',
+  'favorite company' => 'Favorite company',
+  'favorite companies' => 'Favorite companies',
+  'deleted or unknown' => '***Deleted or unknown***',
+  'actions' => 'Actions',
+
   ); // array
 
 ?>

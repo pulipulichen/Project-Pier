@@ -10,7 +10,7 @@
   
   // Return langs
   return array(
-    'new version available' => '一個新的 ProjectPier 版本已經發布，點擊查看 <a href="%s">詳細信息</a>.',
+    'new version available' => '一個新的 ProjectPier 版本已經發布，點擊查看 <a href="%s">詳細訊息</a>.',
     
     'my tasks' => '我的任務',
     'welcome back' => '歡迎 <strong>%s</strong> 回來',
@@ -44,7 +44,7 @@
     
     'im service' => '服務',
     'primary im service' => '主IM',
-    'primary im description' => '所有你輸入的IM地址將被顯示在你的聯系信息頁面上。僅僅主IM將被顯示在其他頁面上 (例如專案的人員頁面).',
+    'primary im description' => '所有你輸入的IM地址將被顯示在你的聯系訊息頁面上。僅僅主IM將被顯示在其他頁面上 (例如專案的人員頁面).',
     'contact online' => '在線的聯系人',
     'contact offline' => '離線的的聯系人',
     
@@ -61,8 +61,8 @@
     'days left' => '%s 天剩餘',
     'day left' => '%s 天剩餘',
     
-    'user card of' => '%s 的用戶信息卡',
-    'company card of' => '%s 的公司信息卡',
+    'user card of' => '%s 的用戶訊息卡',
+    'company card of' => '%s 的公司訊息卡',
     
     // Upgrade
     'upgrade is not available' => '當前沒有新的版本可下載',
@@ -74,14 +74,14 @@
     
     // Complete installation
     'complete installation' => '安裝完成',
-    'complete installation desc' => '這是安裝過程的最後一步，它需要您提供新建的管理員帳戶和你公司的簡要信息',
+    'complete installation desc' => '這是安裝過程的最後一步，它需要您提供新建的管理員帳戶和你公司的簡要訊息',
     
     // Administration
     'welcome to administration' => '歡迎',
     'welcome to administration info' => '歡迎來的管理員控制面板。通過這個工具，您能管理您的公司數據，成員，客戶和您所參與的專案。',
     
     'send new account notification' => '發送郵件通知?',
-    'send new account notification desc' => '如果你選擇「是」，這個用戶將受到一個帶有歡迎信息和登錄信息的郵件',
+    'send new account notification desc' => '如果你選擇「是」，這個用戶將受到一個帶有歡迎訊息和登錄訊息的郵件',
     
     // Tools
     'administration tools' => '工具',
@@ -97,8 +97,8 @@
     // Dashboard
     'welcome to new account' => '歡迎來的您的新建帳戶',
     'welcome to new account info' => '%s，歡迎來到你的心帳戶。從現在開始它會在 %s 一直可用 (你能把這個連接加入書簽). 你跟隨著這些步驟可以在一分鍾之內開始工作。',
-    'new account step1' => '步驟 1: 更新你的公司信息',
-    'new account step1 info' => '<a href="%s">設置你的公司信息</a> 例如電話號碼，傳真號碼，地址，電子郵件，主頁等等。',
+    'new account step1' => '步驟 1: 更新你的公司訊息',
+    'new account step1 info' => '<a href="%s">設置你的公司訊息</a> 例如電話號碼，傳真號碼，地址，電子郵件，主頁等等。',
     'new account step2' => '步驟 2: 增加專案成員',
     'new account step2 info' => '你能 <a href="%s">新建用戶帳戶</a> ，為所有專案團隊成員 (不限製成員數量)。 每一個成員將受到用來訪問本系統的帳號和密碼',
     'new account step3' => '步驟 3: 增加公司和他們的成員',
@@ -107,7 +107,7 @@
     'new account step4 info' => '定義一個<a href="%s">新專案</a> 是非常簡單的：設置一個名稱和描述(可選的)，然後在點提交。然後你可能去設置專案成員和客戶的許可權。',
     'add welcome task text' => '您好 %s, 歡迎來的你的新帳戶。請在7天之內更新您的profile %s.',
     'add welcome task' => '為歡迎專案增加一個任務',
-    'add welcome task desc' => '一個任務被增加到了歡迎專案的任務清單中，它帶有歡迎信息和更新profile的說明。',
+    'add welcome task desc' => '一個任務被增加到了歡迎專案的任務清單中，它帶有歡迎訊息和更新profile的說明。',
     
     // Application log
     'application log events my projects' => '我的專案的事件',
@@ -130,6 +130,11 @@
     'footer copy without homepage' => '&copy; %s by %s. 版權所有',
     'footer powered' => 'Powered by <a href="%s">%s</a>',
     
+
+  // site_interface.php Merge Result
+  'my files' => 'My files',
+
+
   ); // array
 
 ?>

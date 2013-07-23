@@ -27,7 +27,7 @@
     'no milestones in project' => '在這個專案中還沒有里程碑',
     'no active milestones in project' => '在這個專案中還沒有活動的里程碑',
     'empty milestone' => '這個里程碑是空的。你能給它在任何時候增加 <a href="%s">訊息</a> 或者 <a href="%s">任務清單</a> ',
-    'no logs for project' => '這個專案還沒有記錄相關的信息',
+    'no logs for project' => '這個專案還沒有記錄相關的訊息',
     'no recent activities' => '在資料庫中最近沒有活動被記錄',
     'no open task lists in project' => '在這個專案中還沒有開放的任務清單',
     'no completed task lists in project' => '在這個專案中還沒有完成的任務清單',
@@ -122,7 +122,7 @@
     'success edit avatar' => '頭像已被更新',
     'success delete avatar' => '頭像已被刪除',
     
-    'success hide welcome info' => '歡迎信息框已被隱藏',
+    'success hide welcome info' => '歡迎訊息框已被隱藏',
     
     'success complete milestone' => '里程碑 \'%s\' 已被完成',
     'success open milestone' => '里程碑 \'%s\' 已被重新開放',
@@ -140,7 +140,7 @@
     'success test mail settings' => '測試郵件被成功地發送',
     'success massmail' => '郵件被發送',
     
-    'success update company permissions' => '公司許可權信息 %s 已被更新',
+    'success update company permissions' => '公司許可權訊息 %s 已被更新',
     'success user permissions updated' => '用戶許可權已被更新',
     
     // Failures
@@ -165,7 +165,7 @@
     'error remove company from project' => '從專案中刪除公司失敗',
     'error edit avatar' => '更新頭像失敗',
     'error delete avatar' => '刪除頭像失敗',
-    'error hide welcome info' => '隱藏歡迎信息失敗',
+    'error hide welcome info' => '隱藏歡迎訊息失敗',
     'error complete milestone' => '所選里程碑標記完成失敗',
     'error open milestone' => '所選里程碑重新開放失敗',
     'error edit company logo' => '公司圖標更新失敗',
@@ -247,6 +247,47 @@
     'log delete projectforms' => '\'%s\' 已被刪除',
   
     'log add projects' => '%s 已被增加',
+
+
+  // messages.php Merge Result
+  'no status updates associated with object' => 'There are no status updates posted for this object',
+  'no contacts in company' => 'There are no contacts in this company',
+  'contact dnx' => 'Selected contact does not exist',
+  'no image functions' => 'No image functions (install GD library)',
+  'no ldap functions' => 'No LDAP functions (install ldap extension)',
+  'success edit logo' => 'Logo has been updated',
+  'success delete logo' => 'Logo has been deleted',
+  'success move message' => 'Message \'%s\' has been moved from project \'%s\' to project \'%s\'',
+  'success add contact' => 'Contact %s has been added successfully',
+  'success edit contact' => 'Contact %s has been updated successfully',
+  'success delete contact' => 'Contact %s has been deleted successfully',
+  'error edit logo' => 'Failed to update logo %s',
+  'error delete logo' => 'Failed to delete logo %s',
+  'error delete contact' => 'Failed to delete selected contact',
+  'error move message' => 'Failed to move selected message %s',
+  'error move task list' => 'Failed to move selected task list',
+  'confirm delete logo' => 'Are you sure that you want to delete this logo?',
+  'confirm delete contact' => 'Are you sure that you want to delete this contact?',
+  'log edit projects' => 'Project \'%s\' updated',
+  'log open projects' => 'Project \'%s\' opened',
+  'log close projects' => 'Project \'%s\' closed',
+  'log delete projects' => 'Project \'%s\' deleted',
+  'log add users' => 'User \'%s\' added',
+  'log edit users' => 'User \'%s\' updated',
+  'log delete users' => 'User \'%s\' deleted',
+  'log add companies' => 'Company \'%s\' added',
+  'log edit companies' => 'Company \'%s\' updated',
+  'log delete companies' => 'Company \'%s\' deleted',
+  'log add contacts' => 'Contact \'%s\' added',
+  'log edit contacts' => 'Contact \'%s\' updated',
+  'log delete contacts' => 'Contact \'%s\' deleted',
+  'log add i18nlocales' => 'Locale \'%s\' added',
+  'log edit i18nlocales' => 'Locale \'%s\' updated',
+  'log delete i18nlocales' => 'Locale \'%s\' deleted',
+  'log add i18localevalues' => 'Locale value \'%s\' added',
+  'log edit i18nlocalevalues' => 'Locale value \'%s\' updated',
+  'log delete i18nlocalevalues' => 'Locale value \'%s\' deleted',
+
   ); // array
 
 ?>

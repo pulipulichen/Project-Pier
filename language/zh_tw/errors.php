@@ -45,7 +45,7 @@
     // Login form
     'username value missing' => '請輸入你的帳號',
     'password value missing' => '請輸入你的用密碼',
-    'invalid login data' => '登陸失敗，請檢查你的登陸信息後重試',
+    'invalid login data' => '登入失敗，請檢查你的登入訊息後重試',
     
     // Add project form
     'project name required' => '需要項目名稱',
@@ -53,11 +53,11 @@
     
     // Add message form
     'message title required' => '需要標題',
-    'message title unique' => '信息標題必須在這個項目中是唯一的',
-    'message text required' => '需要標題的文本信息',
+    'message title unique' => '訊息標題必須在這個項目中是唯一的',
+    'message text required' => '需要標題的文本訊息',
     
     // Add comment form
-    'comment text required' => '評論的文本信息是必須的',
+    'comment text required' => '評論的文本訊息是必須的',
     
     // Add milestone form
     'milestone name required' => '需要填寫里程碑名稱',
@@ -77,9 +77,17 @@
     
     // Mass mailer
     'massmailer subject required' => '訊息主題是必須的',
-    'massmailer message required' => '訊息信息是必須的',
+    'massmailer message required' => '訊息訊息是必須的',
     'massmailer select recipients' => '選擇將收到此郵件的用戶',
-    
+
+
+  // errors.php Merge Result
+  'name value required' => 'Name is required',
+  'existing contact required' => 'You need to select an existing contact',
+  'contact already has user' => 'This contact already has a user account attached to it.',
+  'invalid password' => 'Incorrect password. Please check your password and try again',
+
+
   ); // array
 
 ?>

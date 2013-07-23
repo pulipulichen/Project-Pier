@@ -18,7 +18,7 @@
     
     // Companies
     'add company' => '增加公司',
-    'edit company' => '更新公司信息',
+    'edit company' => '更新公司訊息',
     'delete company' => '刪除公司',
     'edit company logo' => '更新圖標',
     'delete company logo' => '刪除圖標',
@@ -108,7 +108,7 @@
     'remove company from project' => '從專案中刪除',
     
     // Password
-    'update profile' => '更新個人信息',
+    'update profile' => '更新個人訊息',
     'change password' => '修改密碼',
     'update avatar' => '修改頭像',
     'delete current avatar' => '刪除當前頭像',
@@ -121,11 +121,22 @@
     'send notification' => '發送提醒',
 
     // Download
-    'task download header' => "專案\t任務清單\t狀態\t描述\t編號\t狀態\t信息\t受派人\t任務\r\n",
+    'task download header' => "專案\t任務清單\t狀態\t描述\t編號\t狀態\t訊息\t受派人\t任務\r\n",
     '%s items downloaded' => '%s 項在下載',
     'nothing to download' => "沒有數據在 '%s' 可以被下載",
     'download task lists' => '下載所有任務',
-    
-  ); // array
+
+
+  // actions.php Merge Result
+  'edit logo' => 'Edit logo',
+  'delete logo' => 'Delete logo',
+  'add user account' => 'Add user',
+  'add text snippet' => 'Add text snippet',
+  'add text snippets' => 'Add text snippets',
+  'move message' => 'Move message',
+  'add status update' => 'Post status update',
+  'pdf' => 'PDF',
+  'view milestone' => 'View milestone',
+  'select language' => 'Select language',
 
 ?>

@@ -22,7 +22,7 @@
     'enable comments' => '啟用評論',
     'enable comments desc' => '能查看這個對象的用戶能夠對它發表評論。選擇 "否" 來鎖定評論',
     'enable anonymous comments' => '匿名評論',
-    'enable anonymous comments desc' => '允許匿名的評論被發表在這個專案上。匿名評論可以通過API或者其他信息信息源來發布 (如果啟用了). 作者必須提供一個有效的姓名和電子郵件地址。 來源的 IP 地址將被記錄下來。',
+    'enable anonymous comments desc' => '允許匿名的評論被發表在這個專案上。匿名評論可以通過API或者其他訊息訊息源來發布 (如果啟用了). 作者必須提供一個有效的姓名和電子郵件地址。 來源的 IP 地址將被記錄下來。',
   
     'completed task' => '已完成任務',
     'completed tasks' => '已完成任務',
@@ -86,7 +86,7 @@
     'email notification' => '郵件通知',
     'email notification desc' => '通過郵件把這個訊息通知給選中的人',
     
-    'subscribers desc' => '訂閱將在當其他人發布一個評論在這個信息上的時候收到一個郵件通知',
+    'subscribers desc' => '訂閱將在當其他人發布一個評論在這個訊息上的時候收到一個郵件通知',
     'admins can post comments on locked objects desc' => '<strong>評論已被鎖定</strong>，但是你作為管理員將會有許可權發布評論。注意如果你期望從你的客戶或者非管理員用戶收到回復，你需要對這個對象的評論解鎖  <i>(設置 "啟用評論" 選項為 "是")</i>.',
     
     'all permissions' => '所有',
@@ -122,7 +122,36 @@
     'order by priority' => '按優先度排序',
     'order by milestone' => '按里程碑排序',
     'group by project' => '按專案分組',
-    
+ 
+
+  // project_interface.php Merge Result
+  'edit project to select task list' => '<em>Edit project details to select a task list</em>',
+  'edit project to select task' => '<em>Edit project details to select a task</em>',
+  'parent project' => 'Parent project',
+  'subprojects' => 'Subprojects',
+  'can access messages' => 'Can access messages',
+  'can access tasks' => 'Can access tasks',
+  'can access files' => 'Can access files',
+  'can access forms' => 'Can access forms',
+  'can access contacts' => 'Can access contacts',
+  'can access wiki' => 'Can access wiki',
+  'can access reports' => 'Can access reports',
+  'can manage contacts' => 'Can manage contacts',
+  'can manage wiki' => 'Can manage wiki',
+  'can access search' => 'Can access search',
+  'can access tags' => 'Can access tags',
+  'can access comments' => 'Can access comments',
+  'project to move to' => 'Project to move %s to',
+  'edit project to select milestone' => '<em>Edit project details to select a milestone</em>',
+  'users involved in project' => 'Involved users',
+  'edit project to select message' => '<em>Edit project details to select a message</em>',
+  'attach existing contact' => 'Attach an existing contact (from the Address Book)',
+  'new contact' => 'New contact',
+  'select contact' => 'Select contact',
+  'edit project to select contact' => '<em>Edit project details to select a contact</em>',
+  'created on' => 'Created',
+
+   
   ); // array
 
 ?>
