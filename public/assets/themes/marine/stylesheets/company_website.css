@@ -2,3 +2,16 @@
 @import 'general/forms.css';
 @import 'general/construction.css';
 @import '../../../../assets/javascript/lavalamp.css';
+
+
+div.companyContact.odd, div.companyContact.even  {
+    clear: both;
+}
+
+div.companyContacts {
+    float:right;
+}
+
+div.companyProjects {
+    clear: both;
+}

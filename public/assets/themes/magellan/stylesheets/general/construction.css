@@ -1855,6 +1855,10 @@ div.companyContact.odd {
  background: transparent;
 }
 
+div.companyContact a {
+    clear: both;
+}
+
 .header h2 + .content div span {
  font-weight: bold;
  margin-right: 10px;

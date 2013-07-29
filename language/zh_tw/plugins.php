@@ -21,7 +21,7 @@
     'keep data' => '保留',
     'no plugins found' => '沒有套件被發現',
     'plugin activation failed' => '啟用失敗的套件: %s',
-    'plugins updated' => '套件升級',
+    'plugins updated' => '套件已經更新',
     
   ); // array
 

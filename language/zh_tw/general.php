@@ -98,7 +98,7 @@
     'state' => '州',
     'zipcode' => '郵編',
     'country' => '國家',
-    'n/a' => '<acronym title="Not Available">n/a</acronym>',
+    'n/a' => '<acronym title="沒有設定資料">未設定</acronym>',
     'contact' => '聯絡人',
     'pagination page' => '主頁:',
     'pagination first' => '第一頁',
