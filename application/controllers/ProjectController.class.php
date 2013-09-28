@@ -37,8 +37,12 @@
     */
     function overview() {
       if (active_project() == null || !logged_user()->isProjectUser(active_project())) {
-        flash_error(lang('no access permissions'));
-        $this->redirectTo('dashboard', 'index');
+          // 20130928 Pulipuli Chen
+          // 如果有時候遺忘專案名稱的話，就用這裡當做首頁吧
+          
+        //flash_error(lang('no access permissions'));
+        //$this->redirectTo('dashboard', 'index');
+        header("Location: index.php?c=project&a=index&active_project=1");
       } // if
       
       $this->addHelper('textile');

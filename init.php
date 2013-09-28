@@ -149,6 +149,12 @@
   define('COOKIE_DOMAIN', '');
   define('COOKIE_SECURE', false);
 
+  // 20130928 Pulipuli Chen
+  // 試著先以Project為主
+  define('DEFAULT_CONTROLLER', 'project' );
+  define('DEFAULT_ACTION', 'overview' );
+  define('COOKIE_DOMAIN', '');
+  
   trace(__FILE__,'plugins');
   // here we will load plugin helper file
   require APPLICATION_PATH . '/plugins.php';

@@ -191,8 +191,8 @@
       */
     function contacts() {
       if (!logged_user()->isMemberOfOwnerCompany()) {
-        flash_error(lang('no access permissions'));
-        $this->redirectTo('dashboard');
+        //flash_error(lang('no access permissions'));
+        //$this->redirectTo('dashboard');
       } // if
 
       $page = (integer) array_var($_GET, 'page', 1);
@@ -249,8 +249,8 @@
     */
     function search_contacts() {
       if (!logged_user()->isMemberOfOwnerCompany()) {
-        flash_error(lang('no access permissions'));
-        $this->redirectTo('dashboard');
+        //flash_error(lang('no access permissions'));
+        //$this->redirectTo('project');
       } // if
 
       $page = (integer) array_var($_GET, 'page', 1);

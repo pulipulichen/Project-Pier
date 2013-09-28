@@ -461,11 +461,21 @@
       * header("Cache-Control: public");
       */
       header("Cache-Control: public, must-revalidate");
-      header("Pragma: hack");
+      if (strstr($_SERVER['HTTP_USER_AGENT'], "MSIE") == false) {
+            header("Pragma: hack");
+      }
+      else {
+          header('Pragma: public');
+      }
     } else {
       header("Cache-Control: no-store, no-cache, must-revalidate");
       header("Cache-Control: post-check=0, pre-check=0", false);
-      header("Pragma: no-cache");
+      if (strstr($_SERVER['HTTP_USER_AGENT'], "MSIE") == false) {
+            header("Pragma: no-cache");
+      }
+      else {
+          header('Pragma: public');
+      }
     } // if
     header("Expires: " . gmdate("D, d M Y H:i:s", mktime(date("H") + 2, date("i"), date("s"), date("m"), date("d"), date("Y"))) . " GMT");
     header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
@@ -476,6 +486,11 @@
     // http://www.ietf.org/rfc/rfc2183.txt
     $download_name = strtr($name, " ()<>@,;:\\/[]?=*%'\"", '--------------------');
     $download_name = normalize($download_name);
+    // Generate the server headers
+    if (strstr($_SERVER['HTTP_USER_AGENT'], "MSIE")) {
+        $download_name = iconv('utf-8', 'big5', $download_name);
+        header('Pragma: public');
+    }
     header("Content-Disposition: $disposition; filename=\"$download_name\"");
     //header("Content-Disposition: $disposition; filename=$download_name");
     header("Content-Transfer-Encoding: binary");
